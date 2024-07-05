@@ -125,22 +125,6 @@ public class SampleMecanumDrive extends MecanumDrive {
         }
 
         // TODO: reverse any motors using DcMotor.setDirection()
-        /*if(wierdTunning) {
-            rightFront.setDirection(DcMotorSimple.Direction.FORWARD); // add if needed
-            rightRear.setDirection(DcMotorSimple.Direction.REVERSE); // add if needed
-            leftFront.setDirection(DcMotorSimple.Direction.FORWARD); // add if needed
-            leftRear.setDirection(DcMotorSimple.Direction.REVERSE);
-        } else{
-            rightFront.setDirection(DcMotorSimple.Direction.REVERSE); // add if needed
-            rightRear.setDirection(DcMotorSimple.Direction.REVERSE); // add if needed
-            leftFront.setDirection(DcMotorSimple.Direction.FORWARD); // add if needed
-            leftRear.setDirection(DcMotorSimple.Direction.FORWARD);
-        }*/
-        /*
-        rightFront.setDirection(DcMotorSimple.Direction.REVERSE); // add if needed
-        rightRear.setDirection(DcMotorSimple.Direction.FORWARD); // add if needed
-
-         */
         leftFront.setDirection(DcMotorSimple.Direction.REVERSE); // add if needed
         leftRear.setDirection(DcMotorSimple.Direction.REVERSE);
 
